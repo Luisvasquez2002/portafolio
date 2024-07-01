@@ -1,0 +1,385 @@
+*{
+  box-sizing: border-box; 
+}
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+ body{
+    min-height: 100vh;
+ }
+header{
+    background-color:   #fbfbfb;
+    background-attachment: scroll;
+/*Texto Principal*/
+}
+h1{font-family: 'Lato', sans-serif;
+    font-size: 35px;
+/*Texto segundario*/
+}
+h2{
+    font-family: 'Lato', sans-serif;
+font-size: 28px;
+}
+
+h3{
+    font-family:'Lato', sans-serif ;
+}
+h4{
+    font-family:'Lato', sans-serif; 
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Mi titulo Responsive*/
+.box-nombre{
+    margin-top: 20px;
+}
+.name-01{
+    font-size:7.5vw ;
+    font-family:'Lato', sans-serif;
+    border-right: 4px solid;
+    width: 30ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:typing 5s steps(30),blinking 0.9s infinite step-end alternate;
+ text-align: center;
+ height: 20xp;
+ margin: 0;
+
+}
+@keyframes typing{
+    from{
+       width: 0%; 
+    }
+    to{
+        width: 50;
+    }
+}
+@keyframes blinking{
+    50%{
+       border-color: transparent; 
+    }
+}
+.mytitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*fin del titulo*/
+.container-2 .boton{
+
+    font-size: 20px;
+}
+
+header{
+    height: 90px; 
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7); /*sobra a la barra de navegacion*/
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+   
+header .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+header .container{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+height: 100%;
+
+}
+.container .icono{
+    font-size: 28px;
+   padding: 0 12px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center; 
+}
+.container .navegacion {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    padding: 0 20px;
+    text-align: center;
+    justify-content: center;
+color: black;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 2px;
+    padding: 0;
+    
+    text-decoration: none;
+    padding-left: 10px;
+  
+}
+.icono{ 
+    width:100% ;
+    max-width: 200px;
+    
+}
+/*Fin de la barra de navegacion */
+
+.contenedor .foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor #family{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20vh 0 0 0;
+}
+
+.container-1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parrafo-1{
+
+    text-align: center;
+    margin: 10px;
+    padding: 10px;  
+}
+
+.experiencia p{
+    font-family:'Lato', sans-serif;
+}
+.container-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20vh;
+}
+.boton{
+    background-color: #af5995;
+    font-size: 300px;
+    padding: 15px;
+    border-radius: 30px;
+    color: #fbfbfb ;
+    border: none;
+}
+
+.boton:hover{
+    background-color: #2e11d5;
+    transition: all 0.2s;
+    border:black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+/*segunda seccion*/
+
+.container-3{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+margin: 25px;
+padding: 25px;
+border-radius: 5%;
+background-color:rgba(175, 89, 158, 0.3);
+}
+
+.parrafo-2{
+
+color: #0f0f0f;
+}
+/*seccion de iconos*/
+
+:root{
+    --facebook:#3d5999;
+    --linkedin:#0077b5;
+    --youtube:#bd081c;
+}
+
+.iconos{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    margin: 0 0 11vh; 
+}
+
+.iconos ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0;
+}
+.iconos ul li a{
+display: block;
+padding: 0 10px;
+background: #333;
+color: #fff;
+line-height: 50px;
+box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+transition: 0.2s;
+border-radius: 50%;
+text-align: center;
+align-items: center;
+}
+/*seccion para difuminar los iconos*/
+.iconos ul:hover a{
+    filter: blur(2px);
+}
+/*seccion para solo seleccionar un elemento a la vez para quitar la difuminacion*/
+.iconos ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+
+.iconos ul li .facebook:hover{
+    background: var(--facebook);
+}
+
+.iconos ul li .youtube:hover{
+    background: var(--youtube);
+}
+
+.iconos ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+
+
+/*Seccion de formularios*/
+.container-4{
+height:400px ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.container-4 .contener-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contanido{
+    font: inherit;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 40%;
+    
+}
+
+textarea{
+    min-height: 100px;
+    min-width: 200px;
+    resize: vertical;
+}
+.boton-2{
+    display: block;
+    padding: 9px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background: #af599e;
+    color: #fff;
+    border: none;
+}
+
+.boton-2:hover{
+background: #d511ae;
+transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+label{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.container-4 input{
+    border-radius: 8px;
+    border-color: #d511ae;
+}
+.container-4 .contenido-comentario{
+    border-radius: 8px;
+    border-color: #d511ae;
+
+}
+
+.container-4{
+    background: rgba(175, 89, 158, 0.3);
+    margin: 30px 25px;
+    border-radius: 8%;
+
+}
+/*Pie de pagina*/
+footer{
+    background-color: #af599e;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+  
+}
+ span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    font-family:'Lato', sans-serif;
+    background-color: #af599e;
+    position: relative;
+    text-align: center;
+    margin: 35px 0 0;
+    
+}
+
